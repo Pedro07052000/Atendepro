@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtendePro</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: #128C7E;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px #0001;
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #128C7E;
+      color: white;
+      font-size: 16px;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>AtendePro</h1>
+    <p>Atendimento inteligente para empresas</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>💬 Respostas automáticas</h2>
+      <p>Configure respostas para perguntas frequentes.</p>
+      <button>Configurar</button>
+    </div>
+
+    <div class="card">
+      <h2>👥 Clientes</h2>
+      <p>Gerencie os clientes que entram em contato.</p>
+      <button>Ver clientes</button>
+    </div>
+
+    <div class="card">
+      <h2>📊 Estatísticas</h2>
+      <p>Acompanhe o atendimento da empresa.</p>
+      <button>Ver estatísticas</button>
+    </div>
+
+    <div class="card">
+      <h2>⚙️ Configurações</h2>
+      <p>Configure o funcionamento do AtendePro.</p>
+      <button>Configurar</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
